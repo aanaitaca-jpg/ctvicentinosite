@@ -729,7 +729,6 @@ footer p { font-size: 0.75rem; color: rgba(244,241,222,0.35); font-family: 'Barl
     <div class="sub-section">
       <div class="sub-section-title"><span class="sub-label">Sub-07</span> Jogos</div>
       <div class="jogos-grid">
-        <div class="jogo-card"><div class="jogo-data">19/04 · 09h20</div><div class="jogo-categoria">Sub-07 🟢 Verde</div><div class="jogo-partida">Gremetal × AE Nascimento</div></div>
         <div class="jogo-card"><div class="jogo-data">19/04 · 10h30</div><div class="jogo-categoria">Sub-07 ⚫ Preta</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
       </div>
     </div>
@@ -745,7 +744,6 @@ footer p { font-size: 0.75rem; color: rgba(244,241,222,0.35); font-family: 'Barl
     <div class="sub-section">
       <div class="sub-section-title"><span class="sub-label">Sub-09</span> Jogos</div>
       <div class="jogos-grid">
-        <div class="jogo-card"><div class="jogo-data">19/04 · 08h45</div><div class="jogo-categoria">Sub-09 ⚫ Preto</div><div class="jogo-partida">Gremetal × AE Nascimento (Verde)</div></div>
         <div class="jogo-card"><div class="jogo-data">19/04 · 12h20</div><div class="jogo-categoria">Sub-09 🟢 Verde (AZL)</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
       </div>
     </div>
