@@ -588,6 +588,7 @@ footer p { font-size: 0.75rem; color: rgba(244,241,222,0.35); font-family: 'Barl
     <button class="copa-tab active" onclick="showCopa('pg')">Copa Praia Grande</button>
     <button class="copa-tab" onclick="showCopa('gremetal')">Copa Gremetal</button>
     <button class="copa-tab" onclick="showCopa('fairplay')">Copa Fair Play</button>
+    <button class="copa-tab" onclick="showCopa('amigos')">Copa Amigos</button>
   </div>
 
   <!-- COPA PRAIA GRANDE -->
@@ -707,6 +708,59 @@ footer p { font-size: 0.75rem; color: rgba(244,241,222,0.35); font-family: 'Barl
         <div class="jogo-card"><div class="jogo-data">07/06</div><div class="jogo-categoria">Sub-09</div><div class="jogo-partida">CT Vicentino × União RD — 15:40</div></div>
         <div class="jogo-card"><div class="jogo-data">21/06</div><div class="jogo-categoria">Sub-09</div><div class="jogo-partida">CT Vicentino × Flair — 15:40</div></div>
         <div class="jogo-card" style="border-color:rgba(71,183,81,0.4)"><div class="jogo-data">11/07</div><div class="jogo-categoria" style="color:var(--green)">Sub-09 · FINAIS</div><div class="jogo-partida">Sábado</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- COPA AMIGOS -->
+  <div class="copa-panel" id="copa-amigos">
+    <div style="margin-bottom:20px;">
+      <div class="section-tag" style="margin-bottom:6px">📍 Local: Portuários · Domingo 19/04/2026</div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-06</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 10h00</div><div class="jogo-categoria">Sub-06 ⚫ Preta</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+      </div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-07</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 09h20</div><div class="jogo-categoria">Sub-07 🟢 Verde</div><div class="jogo-partida">Gremetal × AE Nascimento</div></div>
+        <div class="jogo-card"><div class="jogo-data">19/04 · 10h30</div><div class="jogo-categoria">Sub-07 ⚫ Preta</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+      </div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-08</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 13h00</div><div class="jogo-categoria">Sub-08 ⚫ Preta</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+        <div class="jogo-card"><div class="jogo-data">19/04 · 13h30</div><div class="jogo-categoria">Sub-08 🟣 Roxa</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+      </div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-09</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 08h45</div><div class="jogo-categoria">Sub-09 ⚫ Preto</div><div class="jogo-partida">Gremetal × AE Nascimento (Verde)</div></div>
+        <div class="jogo-card"><div class="jogo-data">19/04 · 12h20</div><div class="jogo-categoria">Sub-09 🟢 Verde (AZL)</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+      </div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-10</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 11h10</div><div class="jogo-categoria">Sub-10 ⚫ Preta</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
+      </div>
+    </div>
+
+    <div class="sub-section">
+      <div class="sub-section-title"><span class="sub-label">Sub-11</span> Jogos</div>
+      <div class="jogos-grid">
+        <div class="jogo-card"><div class="jogo-data">19/04 · 11h45</div><div class="jogo-categoria">Sub-11 🟢 Verde</div><div class="jogo-partida">Gremetal × CT Vicentino</div></div>
       </div>
     </div>
 
