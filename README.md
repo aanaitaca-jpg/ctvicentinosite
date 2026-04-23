@@ -118,6 +118,8 @@ nav ul a:hover { opacity: 1; color: var(--green); }
   clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
 }
 .res-proximos-btn:hover { background: #5cd666; }
+.res-subtitulos { display: flex; flex-direction: column; gap: 4px; margin-bottom: 22px; padding: 14px 0; border-top: 1px solid rgba(71,183,81,0.1); border-bottom: 1px solid rgba(71,183,81,0.1); }
+.res-subtitulo { font-family: 'Barlow Condensed'; font-size: 0.82rem; letter-spacing: 1px; color: rgba(244,241,222,0.55); }
 .res-body { display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start; }
 .res-copa-bloco { flex: 1; min-width: 260px; }
 .res-copa-nome {
@@ -387,65 +389,103 @@ footer p { font-size: 0.75rem; color: rgba(244,241,222,0.35); font-family: 'Barl
   <div class="res-header">
     <div class="res-header-left">
       <span class="res-badge">🏆 Resultados do Final de Semana</span>
-      <span class="res-date">10–12 de Abril de 2026</span>
+      <span class="res-date">17–19 de Abril de 2026</span>
     </div>
     <a href="#copas" class="res-proximos-btn">
       Ver Próximos Jogos
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
     </a>
   </div>
+
+  <div class="res-subtitulos">
+    <div class="res-subtitulo">🏆 Copa Amigos — grandes jogos e ótimos resultados</div>
+    <div class="res-subtitulo">🏆 Copa Aberta — encerramos nossa participação, mas com muito aprendizado</div>
+    <div class="res-subtitulo">🏆 Copa Praia Grande — confrontos fortes que fortalecem o grupo</div>
+  </div>
+
   <div class="res-body">
 
+    <!-- Copa Amigos -->
     <div class="res-copa-bloco">
-      <div class="res-copa-nome">Copa Praia Grande · Sexta-feira 10/04</div>
+      <div class="res-copa-nome">Copa Amigos · Domingo 19/04 · Portuários</div>
       <div class="res-jogos">
         <div class="res-jogo derrota">
-          <div class="res-sub">Sub-08</div>
-          <div class="res-placar">
-            <span class="res-time-ct">CT Vicentino</span>
-            <span class="res-score"><span class="score-ct">1</span><span class="score-sep">×</span><span class="score-adv">8</span></span>
-            <span class="res-time-adv">TudSport</span>
-          </div>
+          <div class="res-sub">Sub-06 ⚫</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">0</span><span class="score-sep">×</span><span class="score-adv">3</span></span><span class="res-time-adv">Gremetal</span></div>
+        </div>
+        <div class="res-jogo empate">
+          <div class="res-sub">Sub-07 ⚫</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">4</span><span class="score-sep">×</span><span class="score-adv">4</span></span><span class="res-time-adv">Gremetal</span></div>
         </div>
         <div class="res-jogo vitoria">
-          <div class="res-sub">Sub-09 ⚫</div>
-          <div class="res-placar">
-            <span class="res-time-ct">CT Vicentino</span>
-            <span class="res-score"><span class="score-ct">9</span><span class="score-sep">×</span><span class="score-adv">2</span></span>
-            <span class="res-time-adv">TudSport</span>
-          </div>
+          <div class="res-sub">Sub-08 ⚫</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">1</span><span class="score-sep">×</span><span class="score-adv">0</span></span><span class="res-time-adv">Gremetal</span></div>
+        </div>
+        <div class="res-jogo vitoria">
+          <div class="res-sub">Sub-08 🟣</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">5</span><span class="score-sep">×</span><span class="score-adv">3</span></span><span class="res-time-adv">Gremetal</span></div>
+        </div>
+        <div class="res-jogo vitoria">
+          <div class="res-sub">Sub-09 🟢</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">3</span><span class="score-sep">×</span><span class="score-adv">1</span></span><span class="res-time-adv">Gremetal</span></div>
+        </div>
+        <div class="res-jogo vitoria">
+          <div class="res-sub">Sub-10 ⚫</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">2</span><span class="score-sep">×</span><span class="score-adv">0</span></span><span class="res-time-adv">Gremetal</span></div>
+        </div>
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-11 🟢</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">3</span><span class="score-sep">×</span><span class="score-adv">4</span></span><span class="res-time-adv">Gremetal</span></div>
         </div>
       </div>
     </div>
 
     <div class="res-divider"></div>
 
+    <!-- Copa Aberta -->
     <div class="res-copa-bloco">
-      <div class="res-copa-nome">⭐ Estreia Copa Kids Gremetal · 12/04</div>
+      <div class="res-copa-nome">Copa Aberta · Quartas de Final 17/04</div>
+      <div class="res-jogos">
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-09 🟢</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">0</span><span class="score-sep">×</span><span class="score-adv">2</span></span><span class="res-time-adv">Seja Forte</span></div>
+        </div>
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-09 ⚫</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">0</span><span class="score-sep">×</span><span class="score-adv">2</span></span><span class="res-time-adv">Aymoré</span></div>
+        </div>
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-08</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">0</span><span class="score-sep">×</span><span class="score-adv">1</span></span><span class="res-time-adv">União RD</span></div>
+        </div>
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-11</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">1</span><span class="score-sep">×</span><span class="score-adv">5</span></span><span class="res-time-adv">Aymoré</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="res-divider"></div>
+
+    <!-- Copa Praia Grande -->
+    <div class="res-copa-bloco">
+      <div class="res-copa-nome">Copa Praia Grande · 18/04</div>
       <div class="res-jogos">
         <div class="res-jogo vitoria">
-          <div class="res-sub">Sub-08</div>
-          <div class="res-placar">
-            <span class="res-time-ct">CT Vicentino</span>
-            <span class="res-score"><span class="score-ct">3</span><span class="score-sep">×</span><span class="score-adv">2</span></span>
-            <span class="res-time-adv">União RD</span>
-          </div>
-        </div>
-        <div class="res-jogo vitoria">
           <div class="res-sub">Sub-09 ⚫</div>
-          <div class="res-placar">
-            <span class="res-time-ct">CT Vicentino</span>
-            <span class="res-score"><span class="score-ct">2</span><span class="score-sep">×</span><span class="score-adv">1</span></span>
-            <span class="res-time-adv">União RD</span>
-          </div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">3</span><span class="score-sep">×</span><span class="score-adv">2</span></span><span class="res-time-adv">Delta</span></div>
         </div>
-        <div class="res-jogo empate">
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-08</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">2</span><span class="score-sep">×</span><span class="score-adv">4</span></span><span class="res-time-adv">Delta</span></div>
+        </div>
+        <div class="res-jogo derrota">
           <div class="res-sub">Sub-10</div>
-          <div class="res-placar">
-            <span class="res-time-ct">CT Vicentino</span>
-            <span class="res-score"><span class="score-ct">1</span><span class="score-sep">×</span><span class="score-adv">1</span></span>
-            <span class="res-time-adv">União RD</span>
-          </div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">1</span><span class="score-sep">×</span><span class="score-adv">4</span></span><span class="res-time-adv">Delta</span></div>
+        </div>
+        <div class="res-jogo derrota">
+          <div class="res-sub">Sub-12</div>
+          <div class="res-placar"><span class="res-time-ct">CT Vicentino</span><span class="res-score"><span class="score-ct">0</span><span class="score-sep">×</span><span class="score-adv">3</span></span><span class="res-time-adv">TudSport</span></div>
         </div>
       </div>
     </div>
